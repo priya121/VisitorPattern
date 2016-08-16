@@ -1,7 +1,7 @@
 package main;
 
 public class Necessity implements Visitable {
-    private double price;
+    private final double price;
 
     public Necessity (double item) {
         price = item;
